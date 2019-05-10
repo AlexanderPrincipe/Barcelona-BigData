@@ -11,4 +11,7 @@ rddSinCabecera = rdd.mapPartitionsWithIndex(removerCabecera)
 
 total = rddSinCabecera.count()
 print (total)
-print (total)
+
+rdd23 = rddSinCabecera.filter(lambda fila : int(fila[3]) < 24)
+total23 = rdd23.count() # Action
+print("Total Jugadores 23:{}".format(total23))
