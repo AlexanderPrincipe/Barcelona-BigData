@@ -11,3 +11,4 @@ rddSinCabecera = rdd.mapPartitionsWithIndex(removerCabecera)
 
 total = rddSinCabecera.count()
 print (total)
+print (total)
