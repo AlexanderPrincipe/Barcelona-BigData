@@ -16,19 +16,15 @@ rdd23 = rddSinCabecera.filter(lambda fila : int(fila[3]) < 24)
 total23 = rdd23.count() # Action
 print("Total Jugadores 23:{}".format(total23))
 
-
 rddGK = rdd23.filter(lambda fila : fila[21] == "GK")
-totalGK = rddGK.count() # Action
+totalGK = rddGK.count() # Actdion
 print("Total Jugadores GK:{}".format(totalGK))
 
-rddGKOrden = rddGK.map(lambda fila : (fila[46], 2))
+rddprueba = rdd23.filter(lambda fila: fila[50] > 80)
+print(rddprueba.takeOrdered(2))
 
-def contador(value1, value2):
-	return value1 + value2
-
-rddGKOrden1 = rddGKOrden.reduceByKey(contador)
-
-rddGKOrden1.foreach(lambda fila : print(fila))
+#rddGK2 = rddGK.sortBy(lambda x:1)
+#print(rddGK2.takeOrdered(2))
 
 
 #GKDiving, GKHandling, GKKicking, GKPositioning, GKReflexes
