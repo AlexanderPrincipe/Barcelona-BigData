@@ -20,11 +20,8 @@ rddGK = rdd23.filter(lambda fila : fila[21] == "GK")
 totalGK = rddGK.count() # Actdion
 print("Total Jugadores GK:{}".format(totalGK))
 
-rddprueba = rdd23.filter(lambda fila: fila[50] > 80)
-print(rddprueba.takeOrdered(2))
-
-#rddGK2 = rddGK.sortBy(lambda x:1)
-#print(rddGK2.takeOrdered(2))
+rddGK2 = rddGK.sortBy(lambda x:1)
+print(rddGK2.takeOrdered(2))
 
 
 #GKDiving, GKHandling, GKKicking, GKPositioning, GKReflexes
