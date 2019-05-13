@@ -16,7 +16,7 @@ rdd = rdd.filter(lambda fila: int(fila[3]) < 24)
 
 # Creacion de rdd por posicion
 rddArquero = rdd.filter(lambda fila : fila[21] == "GK")
-rddDefensa = rdd.filter(lambda fila : fila[21] == "LB" or fila[21] == "CB" or fila[21] == "RB" or fila[21] == "LCB" or fila[21] == "RCB")
+rddDefensa = rdd.filter(lambda fila : fila[21] == "LB" or fila[21] == "CB" or fila[21] == "RB" or fila[21] == "LCB" or fila[21] == "RCB" or fila[21] == "LWB" or fila[21] == "RWB")
 rddMedioCampista = rdd.filter(lambda fila : fila[21] == "CDM" or fila[21] == "CM" or fila[21] == "CAM" or fila[21] == "LAM" or fila[21] == "RAM" or fila[21] == "LCM" or fila[21] == "RCM" or fila[21] == "LDM" or fila[21] == "RDM" or fila[21] == "LM" or fila[21] == "RM")
 rddDelantero = rdd.filter(lambda fila : fila[21] == "CF" or fila[21] == "LF" or fila[21] == "RF" or fila[21] == "LS" or fila[21] == "RS")
 
@@ -29,7 +29,7 @@ def EvaluacionArquero(fila):
 posicion_rddArquero = rddArquero.map(lambda fila: EvaluacionArquero(fila))
 
 def EvaluacionDefensa(fila):
-	return (fila[21], fila[2:4] + [fila[11]] + [sum(map(int, fila[71:73] + fila[74:76] + fila[81:82]))])
+	return (fila[21], fila[2:4] + [fila[11]] + [sum(map(int, fila[70:72] + fila[74:76] + fila[81:82]))])
 
 posicion_rddDefensa = rddDefensa.map(lambda fila: EvaluacionDefensa(fila))
 
