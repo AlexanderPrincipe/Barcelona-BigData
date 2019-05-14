@@ -1,5 +1,5 @@
 # Barcelona-BigData
-Aplicando BIgData Scounting FC Barcelona
+Aplicando BigData Scounting FC Barcelona
 
 Se les ha contratado como parte del equipo de scouting (http://www.scoutingcoach.com/que- significascouting/) del club de 
 futbol FC Barcelona.
@@ -11,6 +11,7 @@ Como parte de este objetivo, usted y su equipo deben desarrollar un plan de adqu
 próximos años. Para esto debe formar un equipo (de once) con todos los jugadores que usted considera
 que el club debería fichar en los próximos años. Se le pide dos jugadores por puesto y estos deben
 cumplir las siguiente condiciones:
+
   • Tener 23 años o menos.
   • Según la posición en la que se desempeñe, debe tener los mejores skills (de los que ustedes
     consideren los más importantes para cada posición).
@@ -18,6 +19,6 @@ cumplir las siguiente condiciones:
   • No hay inconveniente con el precio del jugador (aún el club tiene caja para realizar las
   contrataciones). 
 
-Formar un equipo con la formacion 4-4-2
+# Formar un equipo con la formacion 4-4-2
 
 4	- 4	- 2	(1	arquero,	4	defensas,	4	mediocampistas	y	2	delantero
