@@ -13,9 +13,12 @@ que el club debería fichar en los próximos años. Se le pide dos jugadores por
 cumplir las siguiente condiciones:
 
   • Tener 23 años o menos.
+  
   • Según la posición en la que se desempeñe, debe tener los mejores skills (de los que ustedes
     consideren los más importantes para cada posición).
+    
   • Tomar en cuenta su posición preferida (Preferred_Position).
+  
   • No hay inconveniente con el precio del jugador (aún el club tiene caja para realizar las
   contrataciones). 
 
@@ -28,6 +31,4 @@ Codigo spark: tarea2.py
 
 # Instalacion de Spark en linux
 
-https://github.com/AlexanderPrincipe/Instalacion_Spark
-
-[Un enlace para Wikipedia.](http://es.wikipedia.org/)
+[Intalar Spark en linux.](https://github.com/AlexanderPrincipe/Instalacion_Spark)
