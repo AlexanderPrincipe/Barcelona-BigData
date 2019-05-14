@@ -28,3 +28,6 @@ Codigo spark: tarea2.py
 
 # Instalacion de Spark en linux
 
+https://github.com/AlexanderPrincipe/Instalacion_Spark
+
+[Un enlace para Wikipedia.](http://es.wikipedia.org/)
