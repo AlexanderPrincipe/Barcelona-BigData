@@ -22,3 +22,9 @@ cumplir las siguiente condiciones:
 # Formar un equipo con la formacion 4-4-2
 
 4	- 4	- 2	(1	arquero,	4	defensas,	4	mediocampistas	y	2	delantero
+
+CSV a utilizar : data_tarea2.csv
+Codigo spark: tarea2.py
+
+# Instalacion de Spark en linux
+
