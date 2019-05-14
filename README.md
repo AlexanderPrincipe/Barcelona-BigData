@@ -4,7 +4,7 @@ Aplicando BigData Scounting FC Barcelona
 Se les ha contratado como parte del equipo de scouting (http://www.scoutingcoach.com/que- significascouting/) del club de 
 futbol FC Barcelona.
 El club es bastante grande y tiene mucho historial pero en los últimos años está teniendo prob- lemas
-financieros y probablemente muchas de sus estrellas estén abandonando el club en los próx- imos años.
+financieros y probablemente muchas de sus estrellas estén abandonando el club en los próximos años.
 Por este motivo, la directiva tiene como prioridad poder armar una plantilla solamente de chicos jovenes
 (menores o iguales a 23 años) ya que estos tienen bastante potencial y su costo no debería ser tan alto.
 Como parte de este objetivo, usted y su equipo deben desarrollar un plan de adquisiciones para los
